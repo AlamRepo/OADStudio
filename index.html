@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OAD Studio | Architects & Interior Designers in Chandigarh</title>
+  <meta name="description" content="OAD Studio — architecture, interior design, landscaping and modular solutions from Chandigarh. Explore selected work and connect with the studio for your next space." />
+  <meta name="theme-color" content="#19352f" />
+  <meta property="og:title" content="OAD Studio | Architects & Interior Designers" />
+  <meta property="og:description" content="Architecture and interior design crafted around how you live, work and experience space." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --ink:#19352f; --ink-2:#254a42; --cream:#f7f3eb; --paper:#fffdf8; --sand:#e7ddcf;
+      --gold:#c69b5b; --clay:#b96d4d; --muted:#68716d; --line:rgba(25,53,47,.13);
+      --shadow:0 20px 70px rgba(25,53,47,.12); --radius:28px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--paper);font-family:'DM Sans',sans-serif;line-height:1.6;overflow-x:hidden}
+    img{max-width:100%;display:block} a{text-decoration:none;color:inherit} button{font:inherit}
+    .container{width:min(1160px,calc(100% - 40px));margin:auto}.eyebrow{font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--clay)}
+    h1,h2,h3{font-family:'Manrope',sans-serif;line-height:1.08;margin:0;letter-spacing:-.035em} h1{font-size:clamp(3.3rem,7vw,6.9rem)} h2{font-size:clamp(2.3rem,4.6vw,4.3rem)} h3{font-size:1.35rem}
+    p{color:var(--muted);margin:0}.serif{font-family:'Playfair Display',serif;font-style:italic}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 20px;border-radius:999px;border:1px solid transparent;font-weight:700;transition:.25s ease;cursor:pointer}.btn:hover{transform:translateY(-2px)}
+    .btn-dark{background:var(--ink);color:#fff}.btn-light{background:rgba(255,255,255,.82);color:var(--ink);border-color:rgba(25,53,47,.16)}.btn-gold{background:var(--gold);color:#fff}.btn-outline{border-color:rgba(255,255,255,.32);color:#fff;background:transparent}
+    .topbar{background:var(--ink);color:#fff;padding:9px 0;font-size:.78rem}.topbar .inner{display:flex;justify-content:space-between;gap:15px;align-items:center}.topbar a{text-decoration:underline;text-underline-offset:3px}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,253,248,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-family:'Manrope';font-weight:800;letter-spacing:-.03em}.mark{width:38px;height:38px;border:1.5px solid var(--ink);display:grid;place-items:center;border-radius:12px;position:relative}.mark:before{content:"";width:15px;height:15px;border:1.5px solid var(--gold);transform:rotate(45deg);position:absolute}.mark span{font-size:.7rem;position:relative}.brand small{display:block;color:var(--muted);font-size:.57rem;letter-spacing:.16em;text-transform:uppercase;margin-top:-2px}
+    .navlinks{display:flex;gap:27px;align-items:center;font-size:.88rem;font-weight:600}.navlinks a{color:#43534e}.navlinks a:hover{color:var(--clay)}.navcta{display:flex;gap:9px}.menu{display:none;border:0;background:none;font-size:1.5rem;color:var(--ink)}
+    .hero{min-height:calc(100vh - 112px);display:grid;align-items:center;position:relative;background:var(--cream);overflow:hidden}.hero:after{content:"";position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(198,155,91,.18),transparent 68%);right:-200px;top:-120px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center;padding:90px 0}.hero-copy{position:relative;z-index:2}.hero-copy h1{max-width:760px;margin:17px 0 24px}.hero-copy h1 span{color:var(--clay)}.hero-copy .lead{font-size:1.08rem;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.rating{display:flex;align-items:center;gap:13px;margin-top:28px;font-size:.9rem}.stars{letter-spacing:2px;color:var(--gold)}.rating strong{font-family:'Manrope';font-size:1rem}.hero-visual{position:relative;z-index:2}.hero-img{height:640px;border-radius:180px 180px 18px 18px;overflow:hidden;box-shadow:var(--shadow);position:relative}.hero-img img{width:100%;height:100%;object-fit:cover}.hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(25,53,47,.05),rgba(25,53,47,.2))}.floating-card{position:absolute;left:-38px;bottom:34px;background:rgba(255,253,248,.95);padding:19px 20px;border-radius:20px;box-shadow:var(--shadow);max-width:245px}.floating-card b{font-family:'Manrope';font-size:1.15rem}.floating-card p{font-size:.78rem;margin-top:4px}
+    .stats{background:var(--ink);color:#fff}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}.stat{padding:31px 22px;border-right:1px solid rgba(255,255,255,.12)}.stat:last-child{border:0}.stat strong{font-family:'Manrope';font-size:1.35rem;display:block}.stat span{font-size:.78rem;color:rgba(255,255,255,.65);display:block;margin-top:3px}
+    section{padding:115px 0}.section-head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:52px}.section-head .copy{max-width:560px}.section-head h2{margin-top:10px}.section-head p{font-size:1rem}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}.about-image{height:570px;border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}.about-image img{height:100%;width:100%;object-fit:cover}.about-copy h2{margin:12px 0 23px}.about-copy p+p{margin-top:17px}.ticks{display:grid;grid-template-columns:1fr 1fr;gap:13px 22px;margin-top:30px}.tick{display:flex;gap:10px;align-items:start;font-weight:600;font-size:.9rem}.tick i{width:22px;height:22px;display:grid;place-items:center;border-radius:50%;background:rgba(185,109,77,.13);color:var(--clay);font-style:normal;font-size:.7rem}
+    .services{background:#f1ece3}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.service{background:var(--paper);border:1px solid var(--line);padding:30px 26px;min-height:260px;border-radius:22px;transition:.3s}.service:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:transparent}.service-num{font-size:.7rem;color:var(--gold);font-weight:800;letter-spacing:.15em}.service h3{margin:52px 0 12px}.service p{font-size:.88rem}
+    .projects{background:var(--paper)}.project-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.project{position:relative;min-height:520px;border-radius:25px;overflow:hidden;color:#fff}.project.small{min-height:250px}.project-stack{display:grid;gap:18px}.project img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:.6s}.project:hover img{transform:scale(1.045)}.project:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(9,22,19,.82) 100%)}.project-info{position:absolute;z-index:2;left:30px;right:30px;bottom:27px}.project-info .eyebrow{color:#e4c38d}.project-info h3{font-size:1.8rem;margin:6px 0}.project-info p{color:rgba(255,255,255,.78);font-size:.84rem}.project-tag{position:absolute;z-index:2;top:22px;right:22px;background:rgba(255,255,255,.14);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25);padding:8px 12px;border-radius:999px;font-size:.7rem}
+    .process{background:var(--ink);color:#fff}.process p{color:rgba(255,255,255,.67)}.process .eyebrow{color:#d6ae71}.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.13);margin-top:50px}.step{background:var(--ink);padding:28px 25px;min-height:220px}.step b{font-size:2.2rem;font-family:'Playfair Display';font-weight:500;color:var(--gold)}.step h3{margin:25px 0 9px;color:#fff;font-size:1.15rem}.step p{font-size:.85rem}
+    .reviews{background:var(--cream)}.review-wrap{display:grid;grid-template-columns:.7fr 1.3fr;gap:55px;align-items:center}.review-score{background:var(--ink);color:#fff;border-radius:26px;padding:42px}.review-score .big{font:600 5.2rem/1 'Manrope';letter-spacing:-.07em}.review-score .stars{font-size:1.1rem;margin:14px 0}.review-score p{color:rgba(255,255,255,.68);font-size:.85rem}.review-card{background:var(--paper);border:1px solid var(--line);padding:32px;border-radius:24px}.review-card blockquote{font-family:'Playfair Display';font-size:1.55rem;line-height:1.45;margin:0 0 22px}.review-card .source{display:flex;justify-content:space-between;gap:15px;align-items:center}.review-card .source span{font-size:.78rem;color:var(--muted)}
+    .contact{padding-bottom:70px}.contact-box{background:var(--ink);border-radius:34px;padding:60px;color:#fff;display:grid;grid-template-columns:1fr .9fr;gap:55px;position:relative;overflow:hidden}.contact-box:before{content:"";position:absolute;width:440px;height:440px;border:1px solid rgba(198,155,91,.22);border-radius:50%;right:-150px;top:-210px}.contact-box h2{max-width:600px}.contact-box p{color:rgba(255,255,255,.68);margin-top:18px;max-width:560px}.contact-details{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}.contact-item{border:1px solid rgba(255,255,255,.12);padding:16px;border-radius:16px}.contact-item small{display:block;color:rgba(255,255,255,.48);font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:5px}.contact-item a,.contact-item div{font-weight:600;font-size:.88rem}.map{min-height:320px;border-radius:24px;overflow:hidden;border:1px solid rgba(255,255,255,.12);position:relative;z-index:1}.map iframe{width:100%;height:100%;min-height:320px;border:0;filter:saturate(.75)}
+    footer{padding:30px 0 45px;background:#102a25;color:#fff}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:start}.footer-brand p{font-size:.78rem;color:rgba(255,255,255,.55);max-width:350px;margin-top:10px}.footer-links{display:flex;gap:20px;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.7)}.footer-bottom{margin-top:35px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;gap:15px;font-size:.72rem;color:rgba(255,255,255,.45)}
+    .floating-actions{position:fixed;right:18px;bottom:18px;z-index:30;display:flex;flex-direction:column;gap:9px}.float{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;box-shadow:0 12px 30px rgba(0,0,0,.18);font-weight:800}.float.call{background:var(--clay);color:#fff}.float.wa{background:#2c9b65;color:#fff}.wa.disabled{background:#9aa39f;cursor:not-allowed}.wa.disabled:after{content:""}
+    .notice{font-size:.72rem;color:#806a4c;background:#f5ead8;border:1px solid #e4d2b4;padding:10px 12px;border-radius:12px;margin-top:14px}.hidden{display:none}
+    @media(max-width:980px){.navlinks{display:none}.navcta{display:none}.menu{display:block}.hero-grid,.about-grid,.review-wrap,.contact-box{grid-template-columns:1fr}.hero-grid{padding:65px 0}.hero-img{height:520px}.floating-card{left:16px}.stats-grid{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.service-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}.project-grid{grid-template-columns:1fr}.project.small{min-height:300px}.about-image{height:460px}.contact-box{padding:42px}.map{min-height:360px}}
+    @media(max-width:620px){.container{width:min(100% - 28px,1160px)}.topbar .inner{font-size:.7rem}.topbar .inner span:last-child{display:none}nav{height:68px}.brand{font-size:.88rem}.brand small{font-size:.5rem}.hero-grid{gap:38px}.hero-copy h1{font-size:3.2rem}.hero-copy .lead{font-size:.98rem}.hero-img{height:430px;border-radius:120px 120px 16px 16px}.floating-card{bottom:18px;left:10px}.stats-grid{grid-template-columns:1fr 1fr}.stat{padding:23px 15px}.stat strong{font-size:1.05rem}.stat span{font-size:.67rem}section{padding:78px 0}.section-head{display:block;margin-bottom:35px}.section-head p{margin-top:17px}.about-grid{gap:35px}.about-image{height:370px}.ticks{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr}.service{min-height:210px}.service h3{margin-top:35px}.process-grid{grid-template-columns:1fr}.step{min-height:auto}.project{min-height:410px}.project.small{min-height:250px}.review-wrap{gap:25px}.review-score{padding:30px}.review-score .big{font-size:4.2rem}.review-card blockquote{font-size:1.25rem}.contact-box{padding:34px 22px;border-radius:25px}.contact-details{grid-template-columns:1fr}.footer-grid,.footer-bottom{display:block}.footer-links{margin-top:20px}.footer-bottom span{display:block;margin-top:8px}.floating-actions{right:12px;bottom:12px}.float{width:46px;height:46px}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Architect",
+    "name":"OAD Studio",
+    "alternateName":"Omega Arc + Design",
+    "description":"Architecture, interior design, landscaping and modular solutions studio in Chandigarh.",
+    "telephone":"+919915999750",
+    "url":"https://www.omegaarcdesign.com/",
+    "address":{"@type":"PostalAddress","streetAddress":"10, Timber Square, Plot No, Madhya Marg, Timber Market, Sector 26 East","addressLocality":"Chandigarh","postalCode":"160019","addressCountry":"IN"},
+    "geo":{"@type":"GeoCoordinates","latitude":30.7188666,"longitude":76.8123739},
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.3","reviewCount":"79"},
+    "sameAs":["https://www.instagram.com/omegaarcdesign/"]
+  }
+  </script>
+</head>
+<body>
+  <div class="topbar"><div class="container inner"><span>Architecture · Interiors · Landscape · Modular Solutions</span><span>Chandigarh &amp; Delhi-NCR · <a href="https://maps.app.goo.gl/vYoD7UthaDvR5X4e9" target="_blank" rel="noopener">View Google listing</a></span></div></div>
+  <header><div class="container"><nav>
+    <a class="brand" href="#home"><span class="mark"><span>OAD</span></span><span>OAD Studio<small>Omega Arc + Design</small></span></a>
+    <div class="navlinks"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></div>
+    <div class="navcta"><a class="btn btn-dark" href="tel:+919915999750">Call Now</a><a class="btn btn-gold" href="#contact">Start a Project</a></div>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+  </nav></div></header>
+
+  <main id="home">
+    <section class="hero"><div class="container hero-grid">
+      <div class="hero-copy"><div class="eyebrow">Architecture + Interior Design Studio</div><h1>Spaces with <span>character.</span> Designed to live beautifully.</h1><p class="lead">OAD Studio creates considered architecture, interiors, landscaping and modular solutions — bringing design, function and execution together for spaces that feel distinctly yours.</p>
+        <div class="actions"><a class="btn btn-dark" href="tel:+919915999750">Call Now <span>↗</span></a><a class="btn btn-light" href="#projects">Explore Projects <span>↓</span></a></div>
+        <div class="rating"><span class="stars">★★★★★</span><strong>4.3 / 5</strong><span>79 Google Reviews</span></div>
+      </div>
+      <div class="hero-visual"><div class="hero-img"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=88" alt="Premium contemporary interior concept" /></div><div class="floating-card"><b>Design beyond decoration.</b><p>Integrated architecture, interiors and turnkey thinking from concept to completion.</p></div></div>
+    </div></section>
+
+    <div class="stats"><div class="container stats-grid"><div class="stat"><strong>Architecture</strong><span>Built form &amp; planning</span></div><div class="stat"><strong>Interiors</strong><span>Residential &amp; commercial</span></div><div class="stat"><strong>Turnkey</strong><span>Integrated project delivery</span></div><div class="stat"><strong>Landscaping</strong><span>Spaces inside &amp; out</span></div></div></div>
+
+    <section id="about"><div class="container about-grid"><div class="about-image"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=88" alt="Warm modern interior with natural materials" loading="lazy" /></div><div class="about-copy"><div class="eyebrow">The Studio</div><h2>Where architecture meets the everyday.</h2><p>OAD Studio, also known as Omega Arc + Design, is an architecture and design practice based in Chandigarh, working across architecture, interior design, landscaping and modular solutions.</p><p>The studio describes its approach as integrated and turnkey, guiding clients through renovation and new-construction processes with attention to design, functionality and budget.</p><div class="ticks"><div class="tick"><i>✓</i><span>Architecture &amp; planning</span></div><div class="tick"><i>✓</i><span>Interior architecture</span></div><div class="tick"><i>✓</i><span>Landscaping solutions</span></div><div class="tick"><i>✓</i><span>Modular &amp; furniture solutions</span></div></div><div class="actions"><a class="btn btn-dark" href="https://www.omegaarcdesign.com/" target="_blank" rel="noopener">Visit Studio Website ↗</a></div></div></div></section>
+
+    <section class="services" id="services"><div class="container"><div class="section-head"><div><div class="eyebrow">What We Do</div><h2>Design that works<br><span class="serif">beautifully.</span></h2></div><div class="copy"><p>From the first layout to the final detail, the studio brings multiple design disciplines together around the needs of each project.</p></div></div><div class="service-grid">
+      <article class="service"><span class="service-num">01 / ARCHITECTURE</span><h3>Architecture</h3><p>Design and planning for spaces where form, function and context work together.</p></article>
+      <article class="service"><span class="service-num">02 / INTERIORS</span><h3>Interior Design</h3><p>Interior architecture and styling shaped around how a space is used and experienced.</p></article>
+      <article class="service"><span class="service-num">03 / TURNKEY</span><h3>Turnkey Solutions</h3><p>An integrated approach that connects design thinking with project execution.</p></article>
+      <article class="service"><span class="service-num">04 / MODULAR</span><h3>Furniture &amp; Kitchen</h3><p>Modular furniture and kitchen solutions designed to complement the overall space.</p></article>
+    </div></div></section>
+
+    <section class="projects" id="projects"><div class="container"><div class="section-head"><div><div class="eyebrow">Selected Work</div><h2>Projects with a<br><span class="serif">point of view.</span></h2></div><div class="copy"><p>A glimpse into published work associated with Omega Arc + Design. Demo imagery below is used for this website concept and should be replaced with owner-approved project photography before production.</p></div></div>
+      <div class="project-grid">
+        <article class="project"><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1300&q=88" alt="Demo image for Luminare project" loading="lazy" /><span class="project-tag">Demo image</span><div class="project-info"><div class="eyebrow">Gurugram · 2022</div><h3>Luminare</h3><p>Residence interior design — a minimalist, warm and comfortable 3 BHK home balancing monochrome tones with teak wood.</p></div></article>
+        <div class="project-stack"><article class="project small"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=88" alt="Demo image for Monsoon House project" loading="lazy" /><span class="project-tag">Demo image</span><div class="project-info"><div class="eyebrow">Panchkula · 2023</div><h3>Monsoon House</h3><p>Mediterranean-inspired residential interior with earthy tones and sculptural details.</p></div></article><article class="project small"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=88" alt="Demo image for OAD Studio portfolio" loading="lazy" /><span class="project-tag">Portfolio preview</span><div class="project-info"><div class="eyebrow">Residential + Commercial</div><h3>More work</h3><p>Replace this visual with additional owner-approved OAD Studio projects.</p></div></article></div>
+      </div>
+      <div class="notice">Demo imagery is not represented as actual business photography. Replace demo images with the business owner's actual project photos before production.</div>
+    </div></section>
+
+    <section class="process"><div class="container"><div class="section-head"><div><div class="eyebrow">The Approach</div><h2>From idea to<br><span class="serif">real space.</span></h2></div><div class="copy"><p>A clear, integrated design journey keeps the creative vision connected to practical decisions throughout the project.</p></div></div><div class="process-grid"><div class="step"><b>01</b><h3>Understand</h3><p>Brief, site, lifestyle, requirements and the design direction.</p></div><div class="step"><b>02</b><h3>Design</h3><p>Layouts, spatial ideas, materials and visual development.</p></div><div class="step"><b>03</b><h3>Coordinate</h3><p>Bring design disciplines and execution requirements together.</p></div><div class="step"><b>04</b><h3>Deliver</h3><p>Turn the approved design into a considered, functional space.</p></div></div></div></section>
+
+    <section class="reviews" id="reviews"><div class="container review-wrap"><div class="review-score"><div class="eyebrow">Google Reviews</div><div class="big">4.3</div><div class="stars">★★★★★</div><p>Current Google listing rating shown for OAD Studio.</p><a class="btn btn-gold" style="margin-top:24px" href="https://maps.app.goo.gl/vYoD7UthaDvR5X4e9" target="_blank" rel="noopener">Read Google Reviews ↗</a></div><div class="review-card"><div class="eyebrow">Social Proof</div><blockquote>“Explore the work, read the latest Google feedback, and speak directly with the studio before starting your next project.”</blockquote><div class="source"><span>79 Google Reviews</span><span>OAD Studio · Chandigarh</span></div><p class="notice">No customer testimonial is presented as a genuine quote here. Add verified review excerpts only after owner approval.</p></div></div></section>
+
+    <section class="contact" id="contact"><div class="container"><div class="contact-box"><div><div class="eyebrow">Start a Conversation</div><h2>Have a space in mind? Let’s shape it.</h2><p>Call the studio to discuss architecture, interiors, landscaping, modular solutions or a turnkey project.</p><div class="contact-details"><div class="contact-item"><small>Call</small><a href="tel:+919915999750">+91 99159 99750</a></div><div class="contact-item"><small>Hours</small><div><strong id="openStatus">● Checking hours…</strong><br><span style="font-size:.78rem;opacity:.7">Mon–Tue, Fri–Sat · 9 AM–6 PM<br>Wed · 9 AM–12 AM · Thu · 12–6 AM &amp; 9 AM–6 PM<br>Sun · Closed</span></div></div><div class="contact-item"><small>Address</small><div>10, Timber Square, Madhya Marg, Sector 26 East, Chandigarh 160019</div></div><div class="contact-item"><small>Maps</small><a href="https://maps.app.goo.gl/vYoD7UthaDvR5X4e9" target="_blank" rel="noopener">View listing &amp; directions ↗</a></div></div>
+        <div class="actions"><a class="btn btn-gold" href="tel:+919915999750">Call Now</a>
+                                                                                                              
+                                                                                                              <a href="https://wa.me/919915999750?text=Hi%2C%20I%20found%20you%20through%20your%20website%20and%20would%20like%20to%20discuss%20an%20interior%20design%20or%20architecture%20project.%20Please%20let%20me%20know%20how%20we%20can%20connect."
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn btn-outline">
+    <i class="fab fa-whatsapp"></i>
+    WhatsApp Us
+</a>
+                                                                                                              </div>
+        </div><div class="map"><iframe title="OAD Studio location map" loading="lazy" src="https://www.google.com/maps?q=30.7188666,76.8123739&z=16&output=embed"></iframe></div></div></div></section>
+  </main>
+
+  <footer><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="#home"><span class="mark" style="border-color:#fff;color:#fff"><span>OAD</span></span><span>OAD Studio<small style="color:rgba(255,255,255,.45)">Omega Arc + Design</small></span></a><p>Architecture, interior design, landscaping and modular solutions from Chandigarh.</p></div><div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a><a href="https://www.instagram.com/omegaarcdesign/" target="_blank" rel="noopener">Instagram</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> OAD Studio. Demo website.</span><span>Business data researched from public listings. Verify before production.</span></div></div></footer>
+  <div class="floating-actions"><a class="float call" href="tel:+919915999750" aria-label="Call OAD Studio">☎</a><button class="float wa disabled" id="waFloat" type="button" aria-label="WhatsApp needs verification">⌕</button></div>
+  <script>
+    const menuBtn=document.getElementById('menuBtn');
+    const links=document.querySelector('.navlinks');
+    menuBtn.addEventListener('click',()=>{links.style.display=links.style.display==='flex'?'none':'flex';links.style.position='absolute';links.style.top='68px';links.style.left='0';links.style.right='0';links.style.padding='18px 20px';links.style.background='rgba(255,253,248,.98)';links.style.flexDirection='column';links.style.borderBottom='1px solid rgba(25,53,47,.13)';});
+    document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>{if(innerWidth<981)links.style.display='none'}));
+    document.getElementById('year').textContent=new Date().getFullYear();
+    // Google listing hours returned for the exact business. Wednesday runs until midnight; Thursday has 12–6 AM and 9 AM–6 PM intervals.
+    function updateOpenStatus(){
+      const el=document.getElementById('openStatus'); if(!el) return;
+      const d=new Date(), day=d.getDay(), mins=d.getHours()*60+d.getMinutes();
+      const windows={1:[[540,1080]],2:[[540,1080]],3:[[540,1440]],4:[[0,360],[540,1080]],5:[[540,1080]],6:[[540,1080]],0:[]};
+      const open=(windows[day]||[]).some(([a,b])=>mins>=a && mins<b);
+      if(open){el.textContent='● Open Now';el.style.color='#4da873';}
+      else{el.textContent='● Closed Now';el.style.color='#d07a5b';}
+    }
+    updateOpenStatus(); setInterval(updateOpenStatus,60000);
+    const waMessage='Hi, I found you through your website and would like to discuss an interior/architecture project.';
+    function waPending(){document.getElementById('waNote').scrollIntoView({behavior:'smooth',block:'center'});document.getElementById('waNote').animate([{transform:'scale(1)'},{transform:'scale(1.02)'},{transform:'scale(1)'}],{duration:450});}
+    document.getElementById('waBtn').addEventListener('click',waPending);document.getElementById('waFloat').addEventListener('click',waPending);
+  </script>
+</body>
+</html>
